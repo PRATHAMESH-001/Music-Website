@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <title>www.musik.com</title>
+
+  <style>
+    *{
+        margin: 0;
+        padding: 0;
+      }
+    #feel {
+
+      text-transform: uppercase;
+      background-image: linear-gradient(-225deg,
+          #231557 0%,
+          #44107a 29%,
+          #ff1361 67%,
+          #fff800 100%);
+      background-size: auto auto;
+      background-clip: border-box;
+      background-size: 200% auto;
+      color: #fff;
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: textclip 2s linear infinite;
+      display: inline-block;
+      font-size: 100px;
+      margin: 30px;
+    }
+
+    @keyframes textclip {
+      to {
+        background-position: 200% center;
+      }
+    }
+    
+
+    #img12 {
+      width: 200px;
+      background-color: red;
+      position: relative;
+      animation-name: example;
+      animation-duration: 10s;
+      animation-iteration-count: 5;
+    }
+
+    @keyframes example {
+      0% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+      }
+
+      25% {
+        background-color: yellow;
+        left: 200px;
+        top: 0px;
+      }
+
+      50% {
+        background-color: blue;
+        left: 200px;
+        top: 200px;
+      }
+
+      75% {
+        background-color: green;
+        left: 0px;
+        top: 200px;
+      }
+
+      100% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+      }
+    }
+
+    #howlist {
+      font-size: x-large;
+      font-weight: bold;
+      font-style: italic;
+      letter-spacing: 4px;
+      line-height: 50px;
+      padding-top: 40px;
+    }
+
+    .types {
+      font-size: x-large;
+      font-weight:bolder;
+      padding-top: 20px;
+      padding-left: 48px;
+      letter-spacing: 4px;
+      color: aqua;
+      font-style: italic;
+    }
+  </style>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light"
+    style="background-color: #e3f2fd;position: sticky;top: 0;z-index: 999;">
+    <a class="navbar-brand" href="#">
+      <img src="mus.jpg" width="40" height="40" class="d-inline-block align-top" alt=""
+        style="border: dotted red 2px;border-radius: 50%;">
+    </a>
+    <h2 style="font-weight: bold;margin-top: 3px;">Musik</h2>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 30px;">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aboutus.html">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+            Pages
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="page1album.html">Albums</a>
+            <a class="dropdown-item" href="#">Artists</a>
+            <a class="dropdown-item" href="#">Podcasts</a>
+          </div>
+        </li>
+  
+      </ul>
+
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <div class="row" style="height: 350px;background-color:#0a183d;">
+      <div class="col-lg-6 col-md-6 col-sm-12">
+
+        <h1 class="display-2" id="feel">Feel The Music..!
+        </h1>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6">
+        <img id="img12" src="boo2.svg" class="float-right" style="height: 150px;margin-right: 26%;margin-top: 0px;">
+      </div>
+    </div>
+  </div>
+  </div>we
+
+  <div class="container" style="height: 292px;background-color: whitesmoke;">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-6" style="border: dotted black 1px;height: 292px;">
+        <div class="sub-text">
+          <h2 style="font-size: 50px;font-weight: bold;padding-top: 70px;">How</h2>
+          <h2 style="font-size: 48px;font-weight: bold;margin-bottom: -1.2rem;">It Works</h2>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6" style="border: dotted black 1px;height: 292px;padding-left: 76px;">
+       
+        <ul id="howlist">
+          <li>Create Account</li>
+          <li>Choose A Plan</li>
+          <li>Download Music</li>
+          <li>Enjoy Online</li>
+        </ul>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid" style="height: 300px;border: dotted black 2px;background-color:#0a183d;">
+    <div class="row">
+      <div class="col-lg-3">
+        <img src="f1.svg" style="height: 105%;width: 45%;margin-left: 99px;">
+        <h2 class="types">**All Languages**</h2>
+      </div>
+      <div class="col-lg-3">
+        <img src="f2.svg" style="height: 105%;width: 60%;margin-left: 52px;">
+        <h2 class="types">**SoulFul Music**</h2>
+      </div>
+      <div class="col-lg-3">
+        <img src="f3.svg" style="height: 105%;width: 50%;margin-left: 92px;">
+        <h2 class="types">**Dj BlockBasters**</h2>
+      </div>
+      <div class="col-lg-3">
+        <img src="f4.svg" style="height: 105%;width: 45%;margin-left: 72px;margin-top: 14px;margin-bottom: -16px;">
+        <h2 class="types">**Podcasts**</h2>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <h1
+      style="height: 100px;width: 100%;padding-top: 18px;font-size: 50px;text-align: center;background-color:whitesmoke;font-weight:600">
+      Weekly
+      Populars...!!</h1>
+  </div>
+
+  <div class="card-deck" style="background-color: black;margin-top: -7px;">
+    <div class="card">
+      <img src="song11.jpg" class="card-img-top" alt="Responsive image" style="height: 238px;">
+      <div class="card-body">
+        <h5 class="card-title">VED TUZHA</h5>
+        <audio controls style="width: 186px;">
+          <source src="Ved Tuza - Ved - Ajay - Atul - Ritesh & Jenilia ! Marathi.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+    </div>
+    <div class="card">
+      <img src="song1.jpg" class="card-img-top" alt="Responsive image" style="height: 238px;">
+      <div class="card-body">
+        <h5 class="card-title">MAAN MERI JAAN</h5>
+        <audio controls style="width: 186px;">
+          <source src="Maan Meri Jaan.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+    </div>
+    <div class="card">
+      <img src="song22.jpg" class="card-img-top" alt="Responsive image" style="height: 238px;">
+      <div class="card-body">
+        <h5 class="card-title">SHAUQ</h5>
+        <audio controls style="width: 186px;">
+          <source src="Shauq (Qala).mp3" type="audio/mpeg">
+        </audio>
+      </div>
+    </div>
+    <div class="card">
+      <img src="song4.jpg" class="card-img-top" alt="Responsive image" style="height: 238px;">
+      <div class="card-body">
+        <h5 class="card-title">Rabba Janda</h5>
+        <audio controls style="width: 186px;">
+          <source src="Rabba Janda - Mission Majnu ! Sidharth Malhotra ! Hindi Song(1).mp3" type="audio/mpeg">
+        </audio>
+      </div>
+    </div>
+    <div class="card">
+      <img src="song5.png" class="card-img-top" alt="Responsive image" style="height: 238px;">
+      <div class="card-body">
+        <h5 class="card-title">Zume Jo Pathan</h5>
+        <audio controls style="width: 186px;">
+          <source src="Jhume Jo Pathan - Pathan.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+    </div>
+    <div class="card">
+      <img src="song6.jpg" class="card-img-top" alt="Responsive image" style="height: 238px;">
+      <div class="card-body">
+        <h5 class="card-title">Rasiya</h5>
+        <audio controls style="width: 186px;">
+          <source src="Rasiya Reprise ! Rasiya Song ! Ranbir Kapoor ! Alia Bhatt ! Pritam.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid" style="height: 350px;background-color:#0a183d;">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="sub-text">
+          <h2 style="font-size: 50px;font-weight: bold;padding-top: 35px;color: wheat;">Subscription from</h2>
+          <h2 style="font-size: 48px;font-weight: bold;margin-bottom: -1.2rem;color: wheat;">$15/month</h2>
+          <button style="margin-top: 50px;" type="button" class="btn btn-primary btn-lg">Subscribe</button>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <ul class="sub-list" style="font-size: 30px;margin-top: 55px;color: lightblue;">
+          <li>Play any track </li>
+          <li>Listen offline </li>
+          <li>No ad interruptions </li>
+          <li>High quality audio </li>
+          <li>Unlimited skips </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid" style="height: 400px;background-color: whitesmoke;">
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="sub-text">
+          <h2 style="font-size: 50px;font-weight: bold;padding-top: 35px;">Unlimited</h2>
+          <h2 style="font-size: 50px;font-weight: bold;margin-bottom: -1.2rem;">Access</h2>
+        </div>
+      </div>
+      <div class="col-sm-8">
+        <div class="sub-text" style="margin-top: 50px;font-size: 20px;
+          color: #6a7080;
+          line-height: 1.8;
+          font-weight: 500;">
+          <p>Free for 30 days ! Cancel anytime !! It offers access to a massive library of over many nore songs and podcasts. Much like its rivals, it gives allows you to access multiple of curated playlists and radio stations to help with music discovery.We're changing the way you discover and play the music you love. Listen free to music and podcasts with ads—no credit card required. Prime members get unlimited access with Amazon Music Unlimited and play any song, anytime, anywhere.</p>
+          <button style="margin-top: 50px;background-color: #fc0254;border-radius: 30px;border-color:black;"
+            type="button" class="btn btn-primary btn-lg">Try Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <footer class="text-center text-lg-start text-white" style="background-color: #0a183d;">
+
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f">FB</i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter">Twitter</i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google">Google</i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram">Instagram</i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin">Linkedin</i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github">Github</i>
+        </a>
+      </div>
+
+    </section>
+
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+
+        <div class="row mt-3">
+
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+            <h1 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Musik
+            </h1>
+            <p>
+              Copyright ©2023 All rights reserved.
+            </p>
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+            <h6 class="text-uppercase fw-bold mb-4">
+              About Us
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Blog</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">History</a>
+            </p>
+          </div>
+
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+            <h6 class="text-uppercase fw-bold mb-4">
+              Products
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Music</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Subscription</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Custom Music</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Pricing</a>
+            </p>
+          </div>
+
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i> Jalgaon, Maharashtra, INDIA</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              prathameshchavare45@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i>8975406556</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2023 Copyright:
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">www.musik.com</a>
+    </div>
+  </footer>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
